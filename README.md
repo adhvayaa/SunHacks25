@@ -1,3 +1,7 @@
+EcoCart and Pando Chrome Extension
+
+Transform your online shopping into a force for good. EcoCart is a browser extension and web platform that analyzes your Amazon cart, helps you reduce packaging waste and carbon emissions, and rewards you for making sustainable choices—powered by AI and guided by our friendly panda mascot, Pando
+
 Description: A few files (content.js, manifest.json, options.html, options.js, popup.html, popup.js, styles.css) create a chrome extension to Amazon Prime or Fresh. Once users arrive to the Cart, they can explore sustainable ways to order their items. The extension includes a "Scan Cart" button that scans the cart and provides suggestions to order more efficiently. The extension also includes a button that takes the user to an external website. In order to create the website, the other files posted were used. The website provides a brief summary and visuals to help the user better understand how the carbon emissions vary depending on theor order.
 
 Platforms used: Figma, ChatGPT, VisualStudios 
@@ -5,7 +9,7 @@ Platforms used: Figma, ChatGPT, VisualStudios
 Credits:
 1. Ideation - Adhvayaa Sathyanarayan, Hansika Peethala and Tanvi Chebroulu
 2. Chrome extension - Adhvayaa Sathyanarayan
-3. Website - Hansika Peethala and Tanvi Chebroulu
+3. Website(UI/UX) - Hansika Peethala and Tanvi Chebroulu
 4. Integrating Chrome extension and website - Adhvayaa Sathyanarayan
 
 Steps to run this code:
