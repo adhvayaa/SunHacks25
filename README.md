@@ -1,3 +1,13 @@
+Description: A few files (content.js, manifest.json, options.html, options.js, popup.html, popup.js, styles.css) create a chrome extension to Amazon Prime or Fresh. Once users arrive to the Cart, they can explore sustainable ways to order their items. The extension includes a "Scan Cart" button that scans the cart and provides suggestions to order more efficiently. The extension also includes a button that takes the user to an external website. In order to create the website, the other files posted were used. The website provides a brief summary and visuals to help the user better understand how the carbon emissions vary depending on theor order.
+
+Platforms used: Figma, ChatGPT, VisualStudios 
+
+Credits:
+1. Ideation - Adhvayaa Sathyanarayan, Hansika Peethala and Tanvi Chebroulu
+2. Chrome extension - Adhvayaa Sathyanarayan
+3. Website - Hansika Peethala and Tanvi Chebroulu
+4. Integrating Chrome extension and website - Adhvayaa Sathyanarayan
+
 Steps to run this code:
 
 1.	Go to Google AI Studio
