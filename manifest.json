@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Pando – Order Consolidation (Frontend)",
+  "version": "0.2.1",
+  "description": "Scans Amazon Prime/Fresh cart pages and drafts consolidation suggestions using Gemini. Shows results on-page and in the popup.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": [
+    "https://www.amazon.com/*",
+    "https://smile.amazon.com/*",
+    "https://www.amazonfresh.com/*"
+  ],
+  "action": {
+    "default_title": "Pando",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.com/*",
+        "https://smile.amazon.com/*",
+        "https://www.amazonfresh.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
