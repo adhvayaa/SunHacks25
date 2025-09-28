@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pando – Consolidation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Pando</h1>
+
+      <section class="box">
+        <p class="muted">Open your Amazon Prime/Fresh cart tab, then click <b>Scan Cart</b>.</p>
+        <button id="scanBtn">Scan Cart</button>
+      </section>
+
+      <section class="box">
+        <div class="row">
+          <label for="model">Gemini Model</label>
+          <select id="model">
+            <option value="gemini-1.5-flash">gemini-1.5-flash</option>
+          </select>
+        </div>
+        <button id="suggestBtn" disabled>Generate Suggestion</button>
+        <div id="status" class="muted"></div>
+      </section>
+
+      <section class="box">
+        <h2>Pando Suggestion</h2>
+        <pre id="suggestion" class="mono"></pre>
+      </section>
+
+      <section class="box">
+        <p class="muted">
+          Set API key in <a href="#" id="openOptions">Options</a>. Stored via <code>chrome.storage</code>.
+        </p>
+        <button id="figmaBtn">Open Friendly Landing (Figma)</button>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
